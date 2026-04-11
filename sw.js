@@ -2,7 +2,7 @@
 // Versión: 1.0.0
 // Estrategia: Cache First con fallback a red
 
-const CACHE_NAME = 'pwa-manager-pro-v1';
+const CACHE_NAME = 'pwa-manager-pro-v8';
 const CACHE_VERSION = 1;
 
 // Archivos esenciales que se cachean en la instalación
