@@ -1,0 +1,59 @@
+{
+  "name": "VICO PWA HUB",
+  "short_name": "VICO HUB",
+  "description": "Organiza, administra y analiza todas tus aplicaciones PWA con IA integrada",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#6c63ff",
+  "background_color": "#0d0d1a",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["productivity", "developer", "utilities"],
+  "icons": [
+    { "src": "icon.png", "sizes": "48x48",   "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "72x72",   "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.png", "sizes": "256x256", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mis Apps",
+      "short_name": "Apps",
+      "description": "Ver y gestionar tus apps PWA",
+      "url": "./index.html#apps",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Chat IA",
+      "short_name": "Chat",
+      "description": "Abrir el asistente de IA",
+      "url": "./index.html#chat",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Editor Pro",
+      "short_name": "Editor",
+      "description": "Abrir el editor de código",
+      "url": "./index.html#editor",
+      "icons": [{ "src": "icon.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "VICO PWA HUB — Pantalla principal"
+    }
+  ],
+  "prefer_related_applications": false
+}
